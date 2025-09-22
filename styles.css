@@ -1,0 +1,43 @@
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.post {
+    text-align: center;
+    background-color: white;  
+    width: 500px;
+    height: 550px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.post-image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.post-image img {
+    width: 100%;
+}
+.Font-awesome-header {
+    color: black;
+}
+h1 {
+    padding-left: 10px;
+    text-align: left;
+}
+body {
+    background-color: black;
+}
+#fa-solid fa-paper-plane {
+    text-align: left;
+}
+.Font-awesome-icons {
+    display: flex;
+    justify-content: space-between;
+}
