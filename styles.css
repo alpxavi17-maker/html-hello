@@ -24,6 +24,7 @@
 }
 .post-image img {
     width: 100%;
+    overflow: hidden;
 }
 .Font-awesome-header {
     color: black;
@@ -41,4 +42,7 @@ body {
 .Font-awesome-icons {
     display: flex;
     justify-content: space-between;
+}
+#big-image {
+    height: 300px;
 }
