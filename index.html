@@ -14,20 +14,65 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarText"></div>
       <span class="navbar-text">
-        <button class="button" style="background-color: green;">Create a new post</button>
+        <button style="background-color: green;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newPostModal">
+          Create a new post
+        </button>
         <button class="button" style="background-color: gray;"><i class="fa-regular fa-gear"></i></button>
       </span>
     </div>
   </div>
 </nav>
-<div class="row">
-    <div class="col-4">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo70zcfyfYqfPqZFzsTGq-F2YWZ1cCLzkNGA&s" alt="">
+<div class="modal fade" id="newPostModal" tabindex="-1" aria-labelledby="newPostLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title" id="newPostLabel">Create a New Post</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="postTitle" class="form-label">Title</label>
+            <input type="text" class="form-control" id="postTitle" placeholder="Enter a title">
+          </div>
+          <div class="mb-3">
+            <label for="postContent" class="form-label">Content</label>
+            <textarea class="form-control" id="postContent" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Post</button>
+      </div>
+
     </div>
-    <div class="col-4">
-        <img src="https://i.chzbgr.com/full/9031281152/h757C89E8/funny-dog-meme-about-trying-to-get-into-the-conversation-going-on-in-the-front-seat-of-a-car" alt="">
-    </div>
+  </div>
 </div>
 
+<div class="row">
+  <div class="col-4">
+    <img src="https://fastly.picsum.photos/id/25/367/267.jpg?hmac=Ua5ly_yEHw4n1kGEWFbZeqfPF_UW2lN3BODlDn0BQgk" alt="">
+  </div>
+  <div class="col-4">
+    <img src="https://fastly.picsum.photos/id/29/367/267.jpg?hmac=snQvv3cTXL2ZRKdHFXUmjfsHhcSIBisdIGoJ_ofqJD0" alt="">
+  </div>
+  <div class="col-4">
+    <img src="https://fastly.picsum.photos/id/28/367/267.jpg?hmac=yLGWd6QHCcj0A8iajtgeax570C_GRx3TnhfJn8V0GM4" alt="">
+  </div>
+  <div class="col-4">
+    <img src="https://fastly.picsum.photos/id/26/367/267.jpg?hmac=egLTzEJ6LZLmMfYVZBy_gZu57efH4Q9etrJx8GNApyg" alt="">
+  </div>
+  <div class="col-4">
+    <img src="https://fastly.picsum.photos/id/31/367/267.jpg?hmac=fWrdKuXvoxnrmXoVzAOYzZ6oPwY0TNk0vjY2a-0L_kI" alt="">
+  </div>
+  <div class="col-4">
+    <img src="https://fastly.picsum.photos/id/40/367/267.jpg?hmac=kzOw7WFeeXt6HJLNVG_ezhRxfC57fUXfVtfzAML_7Sc" alt="">
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
