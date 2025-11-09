@@ -1,3 +1,13 @@
+.the-title {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.the-title i {
+  font-size: 24px;
+}
+
 .breadcrumb {
   margin: 0 auto;
 }
