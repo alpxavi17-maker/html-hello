@@ -1,0 +1,7 @@
+.col-12{
+    width: 90%;
+    background-color: red;
+}
+.the-containment{
+    display: flex;
+}
