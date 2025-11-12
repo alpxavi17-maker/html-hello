@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/fontawesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -15,7 +14,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"> Instagram</a>
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +27,7 @@
                     <div class="btn-group">
                         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            ⚙️
+                            <i class="fa-solid fa-gear"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="#">Profile</a></li>
@@ -51,7 +50,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <textarea placeholder="add caption here"></textarea>
+                    <textarea placeholder="add caption here" class="form-control"></textarea>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -65,12 +64,16 @@
     <ul class="nav d-flex justify-content-center align-items-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
             <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
-                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i
+                    class="fa-solid fa-grip"></i>
+            </button>
         </li>
 
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
-                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i
+                    class="fa-regular fa-square"></i>
+            </button>
         </li>
     </ul>
 
@@ -82,19 +85,28 @@
             <!-- Grid 3x3 -->
             <div class="container">
                 <div class="row">
-                    <img class="col-4" src="https://fastly.picsum.photos/id/27/367/267.jpg?hmac=9cqOiwja76pSf6w1QA_VmGOjwfV0E3oc4YI6m5EOFvw">
-                    <img class="col-4" src="https://fastly.picsum.photos/id/18/367/267.jpg?hmac=YK1igNRroANbOqxi7Po5_ctbSDKg86tqHOw4D96XfbM">
-                    <img class="col-4" src="https://fastly.picsum.photos/id/2/367/267.jpg?hmac=fg7-2RVTv7Arg3KCcWEorOjdPaC-vJPKTLZgQ7f6R0g">
+                    <img class="col-4"
+                        src="https://fastly.picsum.photos/id/27/367/267.jpg?hmac=9cqOiwja76pSf6w1QA_VmGOjwfV0E3oc4YI6m5EOFvw">
+                    <img class="col-4"
+                        src="https://fastly.picsum.photos/id/18/367/267.jpg?hmac=YK1igNRroANbOqxi7Po5_ctbSDKg86tqHOw4D96XfbM">
+                    <img class="col-4"
+                        src="https://fastly.picsum.photos/id/2/367/267.jpg?hmac=fg7-2RVTv7Arg3KCcWEorOjdPaC-vJPKTLZgQ7f6R0g">
                 </div>
                 <div class="row my-3">
-                    <img class="col-4" src="https://fastly.picsum.photos/id/59/367/267.jpg?hmac=gHirbLSnUnNxndC6tj-h1uSYy14U8N4bKI2AhoUMFKM">
-                    <img class="col-4" src="https://fastly.picsum.photos/id/58/367/267.jpg?hmac=AtywV68WOCM8dNCgusz0vEri8oo7iZjgDUhScZjHy4M">
-                    <img class="col-4" src="https://fastly.picsum.photos/id/57/367/267.jpg?hmac=ReRy2gXqo7vQAXNw79nisa9GTuAxqLVW3z9CJgYQZ_0">
+                    <img class="col-4"
+                        src="https://fastly.picsum.photos/id/59/367/267.jpg?hmac=gHirbLSnUnNxndC6tj-h1uSYy14U8N4bKI2AhoUMFKM">
+                    <img class="col-4"
+                        src="https://fastly.picsum.photos/id/58/367/267.jpg?hmac=AtywV68WOCM8dNCgusz0vEri8oo7iZjgDUhScZjHy4M">
+                    <img class="col-4"
+                        src="https://fastly.picsum.photos/id/57/367/267.jpg?hmac=ReRy2gXqo7vQAXNw79nisa9GTuAxqLVW3z9CJgYQZ_0">
                 </div>
                 <div class="row">
-                    <img class="col-4" src="https://fastly.picsum.photos/id/53/367/267.jpg?hmac=EzmHtzl326Pgby0hLgkO0TlM-lcdQhCTGtnB35_Go10">
-                    <img class="col-4" src="https://fastly.picsum.photos/id/46/367/267.jpg?hmac=UhnLHghsVhwDW5PCBnCTJgONhP-v0hbhQNnGv98RuaU">
-                    <img class="col-4" src="https://fastly.picsum.photos/id/41/367/267.jpg?hmac=QOFSo2cNarg1-_szBRvnDGBkePdEcysK7OGPFAVtWvc">
+                    <img class="col-4"
+                        src="https://fastly.picsum.photos/id/53/367/267.jpg?hmac=EzmHtzl326Pgby0hLgkO0TlM-lcdQhCTGtnB35_Go10">
+                    <img class="col-4"
+                        src="https://fastly.picsum.photos/id/46/367/267.jpg?hmac=UhnLHghsVhwDW5PCBnCTJgONhP-v0hbhQNnGv98RuaU">
+                    <img class="col-4"
+                        src="https://fastly.picsum.photos/id/41/367/267.jpg?hmac=QOFSo2cNarg1-_szBRvnDGBkePdEcysK7OGPFAVtWvc">
                 </div>
             </div>
         </div>
@@ -107,10 +119,13 @@
                         <h3>Motivation</h3>
                         <p class="text-secondary">12/12</p>
                     </div>
-                    <img src="https://fastly.picsum.photos/id/27/367/267.jpg?hmac=9cqOiwja76pSf6w1QA_VmGOjwfV0E3oc4YI6m5EOFvw" class="card-img-top" alt="...">
+                    <img src="https://fastly.picsum.photos/id/27/367/267.jpg?hmac=9cqOiwja76pSf6w1QA_VmGOjwfV0E3oc4YI6m5EOFvw"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">1000 Likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam, tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam,
+                            tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet
+                            autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
                     </div>
                 </div>
 
@@ -119,10 +134,13 @@
                         <h3>Nature</h3>
                         <p class="text-secondary">12/12</p>
                     </div>
-                    <img src="https://fastly.picsum.photos/id/18/367/267.jpg?hmac=YK1igNRroANbOqxi7Po5_ctbSDKg86tqHOw4D96XfbM" class="card-img-top" alt="...">
+                    <img src="https://fastly.picsum.photos/id/18/367/267.jpg?hmac=YK1igNRroANbOqxi7Po5_ctbSDKg86tqHOw4D96XfbM"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">1000 Likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam, tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam,
+                            tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet
+                            autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
                     </div>
                 </div>
 
@@ -131,10 +149,13 @@
                         <h3>Lorem, ipsum.</h3>
                         <p class="text-secondary">12/12</p>
                     </div>
-                    <img src="https://fastly.picsum.photos/id/2/367/267.jpg?hmac=fg7-2RVTv7Arg3KCcWEorOjdPaC-vJPKTLZgQ7f6R0g" class="card-img-top" alt="...">
+                    <img src="https://fastly.picsum.photos/id/2/367/267.jpg?hmac=fg7-2RVTv7Arg3KCcWEorOjdPaC-vJPKTLZgQ7f6R0g"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">1000 Likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam, tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam,
+                            tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet
+                            autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
                     </div>
                 </div>
                 <div class="card col-md-6 col-12 mx-auto my-4">
@@ -142,10 +163,13 @@
                         <h3>Lorem, ipsum.</h3>
                         <p class="text-secondary">12/12</p>
                     </div>
-                    <img src="https://fastly.picsum.photos/id/59/367/267.jpg?hmac=gHirbLSnUnNxndC6tj-h1uSYy14U8N4bKI2AhoUMFKM" class="card-img-top" alt="...">
+                    <img src="https://fastly.picsum.photos/id/59/367/267.jpg?hmac=gHirbLSnUnNxndC6tj-h1uSYy14U8N4bKI2AhoUMFKM"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">1000 Likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam, tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam,
+                            tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet
+                            autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
                     </div>
                 </div>
                 <div class="card col-md-6 col-12 mx-auto my-4">
@@ -153,10 +177,13 @@
                         <h3>Lost thoughts</h3>
                         <p class="text-secondary">12/12</p>
                     </div>
-                    <img src="https://fastly.picsum.photos/id/58/367/267.jpg?hmac=AtywV68WOCM8dNCgusz0vEri8oo7iZjgDUhScZjHy4M" class="card-img-top" alt="...">
+                    <img src="https://fastly.picsum.photos/id/58/367/267.jpg?hmac=AtywV68WOCM8dNCgusz0vEri8oo7iZjgDUhScZjHy4M"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">1000 Likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam, tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam,
+                            tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet
+                            autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
                     </div>
                 </div>
                 <div class="card col-md-6 col-12 mx-auto my-4">
@@ -164,10 +191,13 @@
                         <h3>Urban art</h3>
                         <p class="text-secondary">12/12</p>
                     </div>
-                    <img src="https://fastly.picsum.photos/id/57/367/267.jpg?hmac=ReRy2gXqo7vQAXNw79nisa9GTuAxqLVW3z9CJgYQZ_0" class="card-img-top" alt="...">
+                    <img src="https://fastly.picsum.photos/id/57/367/267.jpg?hmac=ReRy2gXqo7vQAXNw79nisa9GTuAxqLVW3z9CJgYQZ_0"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">1000 Likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam, tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam,
+                            tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet
+                            autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
                     </div>
                 </div>
                 <div class="card col-md-6 col-12 mx-auto my-4">
@@ -175,10 +205,13 @@
                         <h3>Flying high</h3>
                         <p class="text-secondary">12/12</p>
                     </div>
-                    <img src="https://fastly.picsum.photos/id/53/367/267.jpg?hmac=EzmHtzl326Pgby0hLgkO0TlM-lcdQhCTGtnB35_Go10" class="card-img-top" alt="...">
+                    <img src="https://fastly.picsum.photos/id/53/367/267.jpg?hmac=EzmHtzl326Pgby0hLgkO0TlM-lcdQhCTGtnB35_Go10"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">1000 Likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam, tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam,
+                            tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet
+                            autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
                     </div>
                 </div>
                 <div class="card col-md-6 col-12 mx-auto my-4">
@@ -186,10 +219,13 @@
                         <h3>Sweet desolation</h3>
                         <p class="text-secondary">12/12</p>
                     </div>
-                    <img src="https://fastly.picsum.photos/id/46/367/267.jpg?hmac=UhnLHghsVhwDW5PCBnCTJgONhP-v0hbhQNnGv98RuaU" class="card-img-top" alt="...">
+                    <img src="https://fastly.picsum.photos/id/46/367/267.jpg?hmac=UhnLHghsVhwDW5PCBnCTJgONhP-v0hbhQNnGv98RuaU"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">1000 Likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam, tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam,
+                            tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet
+                            autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
                     </div>
                 </div>
                 <div class="card col-md-6 col-12 mx-auto my-4">
@@ -197,10 +233,13 @@
                         <h3>Chills</h3>
                         <p class="text-secondary">12/12</p>
                     </div>
-                    <img src="https://fastly.picsum.photos/id/41/367/267.jpg?hmac=QOFSo2cNarg1-_szBRvnDGBkePdEcysK7OGPFAVtWvc" class="card-img-top" alt="...">
+                    <img src="https://fastly.picsum.photos/id/41/367/267.jpg?hmac=QOFSo2cNarg1-_szBRvnDGBkePdEcysK7OGPFAVtWvc"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">1000 Likes</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam, tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsam,
+                            tempore mollitia dicta perferendis exercitationem, nulla doloremque ullam maiores eveniet
+                            autem sapiente, adipisci sint. Veniam voluptatum esse consequuntur repellendus ipsam.</p>
                     </div>
                 </div>
             </div>
@@ -213,6 +252,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4e8197ba37.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
 </body>
 
 </html>
