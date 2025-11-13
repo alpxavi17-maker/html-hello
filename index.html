@@ -23,42 +23,46 @@
                     <input type="text" class="form-control" id="cardName" placeholder="Juan Pérez" required>
                 </div>
                 <div class="col-3">
-                    <label for="cardName" class="form-label">Card #</label>
+                    <label for="cardName" class="form-label">CVC #</label>
                     <input type="text" class="form-control" id="cardName" placeholder="Juan Pérez" required>
                 </div>
                 <div class="col-4">
-                    <label for="cardName" class="form-label">Card #</label>
+                    <label for="cardName" class="form-label">Amount #</label>
                     <input type="text" class="form-control" id="cardName" placeholder="Juan Pérez" required>
                 </div>
             </div>
 
-            <!-- Número de tarjeta -->
-            <div class="mb-3">
-                <label for="cardNumber" class="form-label">Número de tarjeta</label>
-                <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456" required>
-            </div>
-
-            <!-- Fecha de expiración y CVV -->
+            <!--First and last name-->
             <div class="row mb-3">
-                <div class="col-md-6">
-                    <label for="expiry" class="form-label">Fecha de expiración</label>
-                    <input type="text" class="form-control" id="expiry" placeholder="MM/AA" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="cvv" class="form-label">CVV</label>
-                    <input type="text" class="form-control" id="cvv" placeholder="123" required>
-                </div>
-            </div>
+                <div class="col-md-6"><label for="firstName" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Name"> </div>
+                    <div class="col-md-6"><label for="secondName" class="form-label">Second name</label>
+                        <input type="text" class="form-control" id="secondName" placeholder="Second Name">
+                    </div>
 
-            <!-- Dirección -->
-            <div class="mb-3">
-                <label for="address" class="form-label">Dirección</label>
-                <input type="text" class="form-control" id="address" placeholder="Calle, Ciudad, Código Postal"
-                    required>
-            </div>
+                </div>
 
-            <!-- Botón de pago -->
-            <button type="submit" class="btn btn-pay btn-lg">Pagar</button>
+                <!-- Fecha de expiración y CVV -->
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="expiry" class="form-label">Fecha de expiración</label>
+                        <input type="text" class="form-control" id="expiry" placeholder="MM/AA" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="cvv" class="form-label">CVV</label>
+                        <input type="text" class="form-control" id="cvv" placeholder="123" required>
+                    </div>
+                </div>
+
+                <!-- Dirección -->
+                <div class="mb-3">
+                    <label for="address" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="address" placeholder="Calle, Ciudad, Código Postal"
+                        required>
+                </div>
+
+                <!-- Botón de pago -->
+                <button type="submit" class="btn btn-pay btn-lg">Pagar</button>
         </form>
     </div>
 
